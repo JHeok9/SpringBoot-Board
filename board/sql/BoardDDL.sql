@@ -8,7 +8,6 @@ CREATE TABLE board
     reg_date       TIMESTAMP        NOT NULL, 
     views          INT              NOT NULL, 
     update_date    TIMESTAMP        NULL, 
-    delete_date    TIMESTAMP        NULL, 
     CONSTRAINT PK_board PRIMARY KEY (board_id)
 );
 
@@ -54,9 +53,6 @@ COMMENT ON COLUMN board.views IS '조회수';
 
 -- 컬럼 Comment 설정 SQL - board.update_date
 COMMENT ON COLUMN board.update_date IS '수정일';
-
--- 컬럼 Comment 설정 SQL - board.delete_date
-COMMENT ON COLUMN board.delete_date IS '삭제일';
 
 -- Index 설정 SQL - board(board_id)
 CREATE INDEX blog_post_Index_1
