@@ -1,0 +1,10 @@
+INSERT INTO member (name, password, member_name) VALUES ('name 01', 'password 01', 'member_name 01');
+INSERT INTO member (name, password, member_name) VALUES ('name 02', 'password 02', 'member_name 02');
+INSERT INTO member (name, password, member_name) VALUES ('name 03', 'password 03', 'member_name 03');
+INSERT INTO member (name, password, member_name) VALUES ('name 04', 'password 04', 'member_name 04');
+INSERT INTO member (name, password, member_name) VALUES ('name 05', 'password 05', 'member_name 05');
+INSERT INTO member (name, password, member_name) VALUES ('name 06', 'password 06', 'member_name 06');
+INSERT INTO member (name, password, member_name) VALUES ('name 07', 'password 07', 'member_name 07');
+INSERT INTO member (name, password, member_name) VALUES ('name 08', 'password 08', 'member_name 08');
+INSERT INTO member (name, password, member_name) VALUES ('name 09', 'password 09', 'member_name 09');
+INSERT INTO member (name, password, member_name) VALUES ('name 10', 'password 10', 'member_name 10');
